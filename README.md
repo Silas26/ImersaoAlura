@@ -1,4 +1,4 @@
-## **## README.md: Aplicação de Pesquisa de Jogadores do Corinthians**
+## Aplicação de Pesquisa de Jogadores do Corinthians - Imersao Dev com Google Gemini**
 
 ### **O que faz essa aplicação?**
 
