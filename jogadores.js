@@ -447,5 +447,33 @@ valorMercado: '2.1M €'
                                                                             clube: 'Corinthians',
                                                                             valorMercado: '2.2M €'
                                                                             // ... outras propriedades
-                                                                            }
+                                                                            },
+                                                                            {
+                                                                                nome : 'Memphis Depay',
+                                                                                posicao: 'F',
+                                                                                link: 'https://www.sofascore.com/pt/jogador/memphis-depay/138833',
+                                                                                dataNascimento : '13/02/1994',
+                                                                                nacionalidade: 'Holandês',
+                                                                                altura: '176cm',
+                                                                                numeroCamisa: 94,
+                                                                                pePreferencial: 'Direito',
+                                                                                idade: '30',
+                                                                                clube: 'Corinthians',
+                                                                                valorMercado: '10.3m € '
+                                                                                // ... outras propriedades
+                                                                                },
+                                                                                {
+                                                                                    nome : 'André Carrillo',
+                                                                                    posicao: 'M',
+                                                                                    link: 'https://www.sofascore.com/pt/jogador/andre-carrillo/115182',
+                                                                                    dataNascimento : '14/07/1991',
+                                                                                    nacionalidade: 'Peruano',
+                                                                                    altura: '180 cm',
+                                                                                    numeroCamisa: 19,
+                                                                                    pePreferencial: 'Direito',
+                                                                                    idade: '33',
+                                                                                    clube: 'Corinthians',
+                                                                                    valorMercado: '1,4m €'
+                                                                                    // ... outras propriedades
+                                                                                    }
 ];
