@@ -24,12 +24,11 @@ function pesquisar() {
 
     let resultados = "";
     let nome = "";
-    let posicao = "";
+
     for (let dado of jogadores) {
       nome = dado.nome.toLowerCase()
-      posicao = dado.posicao.toLowerCase() 
 
-      if (nome.includes(campoPesquisa) || posicao.includes(campoPesquisa)){
+      if (nome.includes(campoPesquisa)){
         //       
     resultados += `
     <div class="item-resultado">
