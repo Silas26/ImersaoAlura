@@ -78,6 +78,11 @@ section button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
+.item-resultado img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
@@ -108,7 +113,7 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
+    position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
