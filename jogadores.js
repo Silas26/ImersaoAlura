@@ -11,13 +11,14 @@ let jogadores = [
         pePreferencial: 'Direito',
         idade: 23,
         clube: 'Corinthians',
-        valorMercado: '12.4M €'
+        valorMercado: '12.4M €',
+        image: 'https://api.sofascore.app/api/v1/player/905463/image'
         // ... outras propriedades
     },
         {
             nome : 'Rodrigo Garro',
             posicao: 'M',
-            link: 'https://www.sofascore.com/pt/jogador/yuri-alberto/905463',
+            link: 'https://www.sofascore.com/pt/jogador/rodrigo-garro/994454',
             dataNascimento : '04/01/1998',
             nacionalidade: 'Argentino',
             altura: '174cm',
@@ -25,7 +26,8 @@ let jogadores = [
             pePreferencial: 'Esquerdo',
             idade: 26,
             clube: 'Corinthians',
-            valorMercado: '6.8M €'
+            valorMercado: '6.8M €',
+            image: 'https://api.sofascore.app/api/v1/player/994454/image'
             // ... outras propriedades
         },
         {
@@ -39,7 +41,8 @@ let jogadores = [
             pePreferencial: 'Direito',
             idade: 25,
             clube: 'Corinthians',
-            valorMercado: '1,5M €'
+            valorMercado: '1,5M €',
+            image: 'https://api.sofascore.app/api/v1/player/950454/image'
             // ... outras propriedades
         },
     {
@@ -53,7 +56,8 @@ let jogadores = [
         pePreferencial: 'Direito',
         idade: 32,
         clube: 'Corinthians',
-        valorMercado: '1,4M €'
+        valorMercado: '1,4M €',
+        image: 'https://api.sofascore.app/api/v1/player/1197041/image'
         // ... outras propriedades
     },
         {
@@ -67,7 +71,8 @@ let jogadores = [
             pePreferencial: 'Direito',
             idade: 27,
             clube: 'Corinthians',
-            valorMercado: '3,8M €'
+            valorMercado: '3,8M €',
+            image: 'https://api.sofascore.app/api/v1/player/866392/image'
             // ... outras propriedades
         },
         {
@@ -81,7 +86,8 @@ let jogadores = [
             pePreferencial: 'Direito',
             idade: 32,
             clube: 'Corinthians',
-            valorMercado: '4,2M'
+            valorMercado: '4,2M',
+            image: 'https://api.sofascore.app/api/v1/player/152098/image'
             // ... outras propriedades
         },
         {
@@ -95,23 +101,10 @@ let jogadores = [
         pePreferencial: 'Esquerdo',
         idade: 27,
         clube: 'Corinthians',
-        valorMercado: '4,4M'
+        valorMercado: '4,4M',
+        image: 'https://api.sofascore.app/api/v1/player/831778/image'
         // ... outras propriedades
     },
-    {
-    nome : 'Guilherme Biro',
-    posicao: 'M',
-    link: 'https://www.sofascore.com/pt/jogador/guilherme-biro/1106667',
-    dataNascimento : '20/01/2004',
-    nacionalidade: 'Brasileiro',
-    altura: '173cm',
-    numeroCamisa: 26,
-    pePreferencial: 'Esquerdo',
-    idade: 20,
-    clube: 'Corinthians',
-    valorMercado: '3.8M'
-    // ... outras propriedades
-},
 {
 nome : 'Breno Bidon',
 posicao: 'M',
@@ -123,7 +116,8 @@ numeroCamisa: 27,
 pePreferencial: 'Esquerdo',
 idade: 19,
 clube: 'Corinthians',
-valorMercado: '4.6M'
+valorMercado: '4.6M',
+image: 'https://api.sofascore.app/api/v1/player/1199261/image'
 // ... outras propriedades
 },
 {
@@ -137,7 +131,8 @@ numeroCamisa: 70,
 pePreferencial: 'Direito',
 idade: 30,
 clube: 'Corinthians',
-valorMercado: '2.9M'
+valorMercado: '2.9M',
+image: 'https://api.sofascore.app/api/v1/player/979325/image'
 // ... outras propriedades
 },
 {
@@ -151,7 +146,8 @@ numeroCamisa: 30,
 pePreferencial: 'Direito',
 idade: 22,
 clube: 'Corinthians',
-valorMercado: '1.9M'
+valorMercado: '1.9M',
+image: 'https://api.sofascore.app/api/v1/player/1002617/image'
 // ... outras propriedades
 },
 {
@@ -165,7 +161,8 @@ numeroCamisa: '3',
 pePreferencial: 'Direito',
 idade: 27,
 clube: 'Corinthians',
-valorMercado: '5.4M €'
+valorMercado: '5.4M €',
+image: 'https://api.sofascore.app/api/v1/player/881848/image'
 // ... outras propriedades
 },
 {
@@ -179,7 +176,8 @@ numeroCamisa: '80',
 pePreferencial: 'Direito',
 idade: 29 ,
 clube: 'Corinthians',
-valorMercado: '2.1M €'
+valorMercado: '2.1M €',
+image: 'https://api.sofascore.app/api/v1/player/358166/image'
 // ... outras propriedades
 },
 {
@@ -191,9 +189,10 @@ valorMercado: '2.1M €'
     altura: '187 cm',
     numeroCamisa: 8,
     pePreferencial: 'Direito',
-    idade: 28 ,
+    idade: 29 ,
     clube: 'Corinthians',
-    valorMercado: '970K €'
+    valorMercado: '970K €',
+    image: ''
     // ... outras propriedades
     },
     {
@@ -207,7 +206,8 @@ valorMercado: '2.1M €'
         pePreferencial: 'Direito',
         idade: 31,
         clube: 'Corinthians',
-        valorMercado: '905K €'
+        valorMercado: '905K €',
+        image: 'https://api.sofascore.app/api/v1/player/243181/image'
         // ... outras propriedades
         },
         {
@@ -221,7 +221,8 @@ valorMercado: '2.1M €'
             pePreferencial: 'Direito',
             idade: 24,
             clube: 'Corinthians',
-            valorMercado: '765K €'
+            valorMercado: '765K €',
+            image: 'https://api.sofascore.app/api/v1/player/1047656/image'
             // ... outras propriedades
             },
             {
@@ -235,7 +236,8 @@ valorMercado: '2.1M €'
                 pePreferencial: 'Esquerdo',
                 idade: 21,
                 clube: 'Corinthians',
-                valorMercado: '290K €'
+                valorMercado: '290K €',
+                image: 'https://api.sofascore.app/api/v1/player/1170779/image'
                 // ... outras propriedades
                 },
                 {
@@ -249,7 +251,8 @@ valorMercado: '2.1M €'
                     pePreferencial: 'Direito',
                     idade:35,
                     clube: 'Corinthians',
-                    valorMercado: '485K €'
+                    valorMercado: '485K €',
+                    image: 'https://api.sofascore.app/api/v1/player/25554/image'
                     // ... outras propriedades
                     },
                     {
@@ -263,7 +266,8 @@ valorMercado: '2.1M €'
                         pePreferencial: 'Direito',
                         idade: 23,
                         clube: 'Corinthians',
-                        valorMercado: '5.2M €'
+                        valorMercado: '5.2M €',
+                        image: 'https://api.sofascore.app/api/v1/player/931540/image'
                         // ... outras propriedades
                         },
                         {
@@ -277,7 +281,8 @@ valorMercado: '2.1M €'
                             pePreferencial: 'Esquerdo',
                             idade: '25 anos',
                             clube: 'Corinthians',
-                            valorMercado: '3.1M €'
+                            valorMercado: '3.1M €',
+                            image: 'https://api.sofascore.app/api/v1/player/925615/image'
                             // ... outras propriedades
                             },
                             {
@@ -291,7 +296,8 @@ valorMercado: '2.1M €'
                                 pePreferencial: 'Esquerdo',
                                 idade: '25 anos',
                                 clube: 'Corinthians',
-                                valorMercado: '2.1M €'
+                                valorMercado: '2.1M €',
+                                image: 'https://api.sofascore.app/api/v1/player/981703/image'
                                 // ... outras propriedades
                                 },
                                 {
@@ -305,7 +311,8 @@ valorMercado: '2.1M €'
                                     pePreferencial: 'Direito',
                                     idade: '32 anos',
                                     clube: 'Corinthians',
-                                    valorMercado: '2.4M €'
+                                    valorMercado: '2.4M €',
+                                    image: 'https://api.sofascore.app/api/v1/player/148155/image'
                                     // ... outras propriedades
                                     },
                                     {
@@ -319,7 +326,8 @@ valorMercado: '2.1M €'
                                         pePreferencial: 'Direito',
                                         idade: '25 anos',
                                         clube: 'Corinthians',
-                                        valorMercado: '2.1M €'
+                                        valorMercado: '2.1M €',
+                                        image: 'https://api.sofascore.app/api/v1/player/929200/image'
                                         // ... outras propriedades
                                         },
                                         {
@@ -333,7 +341,8 @@ valorMercado: '2.1M €'
                                             pePreferencial: 'Esquerdo',
                                             idade: '27 anos',
                                             clube: 'Corinthians',
-                                            valorMercado: '1.4M €'
+                                            valorMercado: '1.4M €',
+                                            image: 'https://api.sofascore.app/api/v1/player/1017827/image'
                                             // ... outras propriedades
                                             },
                                             {
@@ -347,7 +356,8 @@ valorMercado: '2.1M €'
                                                 pePreferencial: 'Esquerdo',
                                                 idade: '25 anos',
                                                 clube: 'Corinthians',
-                                                valorMercado: '2.1M €'
+                                                valorMercado: '2.1M €',
+                                                image: 'https://api.sofascore.app/api/v1/player/959006/image'
                                                 // ... outras propriedades
                                                 },
                                                 {
@@ -361,7 +371,8 @@ valorMercado: '2.1M €'
                                                     pePreferencial: 'Direito',
                                                     idade: '20 anos',
                                                     clube: 'Corinthians',
-                                                    valorMercado: '725K €'
+                                                    valorMercado: '725K €',
+                                                    image: 'https://api.sofascore.app/api/v1/player/1170769/image'
                                                     // ... outras propriedades
                                                     },
                                                     {
@@ -375,7 +386,8 @@ valorMercado: '2.1M €'
                                                         pePreferencial: 'Direito',
                                                         idade: '22 anos',
                                                         clube: 'Corinthians',
-                                                        valorMercado: '1.9M €'
+                                                        valorMercado: '1.9M €',
+                                                        image: 'https://api.sofascore.app/api/v1/player/1002609/image'
                                                         // ... outras propriedades
                                                         },
                                                         {
@@ -389,7 +401,8 @@ valorMercado: '2.1M €'
                                                             pePreferencial: 'Direito',
                                                             idade: '22 anos',
                                                             clube: 'Corinthians',
-                                                            valorMercado: '6.4M €'
+                                                            valorMercado: '6.4M €',
+                                                            image: 'https://api.sofascore.app/api/v1/player/985860/image'
                                                             // ... outras propriedades
                                                             },
                                                             {
@@ -403,7 +416,8 @@ valorMercado: '2.1M €'
                                                                 pePreferencial: 'Direito',
                                                                 idade: '27 anos',
                                                                 clube: 'Corinthians',
-                                                                valorMercado: '2.9M €'
+                                                                valorMercado: '2.9M €',
+                                                                image: 'https://api.sofascore.app/api/v1/player/866911/image'
                                                                 // ... outras propriedades
                                                                 },
                                                                 {
@@ -417,7 +431,8 @@ valorMercado: '2.1M €'
                                                                     pePreferencial: 'Esquerdo',
                                                                     idade: '20 anos',
                                                                     clube: 'Corinthians',
-                                                                    valorMercado: '2.6M €'
+                                                                    valorMercado: '2.6M €',
+                                                                    image: 'https://api.sofascore.app/api/v1/player/1170773/image'
                                                                     // ... outras propriedades
                                                                     },
                                                                     {
@@ -431,7 +446,8 @@ valorMercado: '2.1M €'
                                                                         pePreferencial: 'Direito',
                                                                         idade: '34 anos',
                                                                         clube: 'Corinthians',
-                                                                        valorMercado: '825K €'
+                                                                        valorMercado: '825K €',
+                                                                        image: 'https://api.sofascore.app/api/v1/player/219190/image'
                                                                         // ... outras propriedades
                                                                         },
                                                                         {
@@ -445,7 +461,8 @@ valorMercado: '2.1M €'
                                                                             pePreferencial: 'Direito',
                                                                             idade: '28 anos',
                                                                             clube: 'Corinthians',
-                                                                            valorMercado: '2.2M €'
+                                                                            valorMercado: '2.2M €',
+                                                                            image: 'https://api.sofascore.app/api/v1/player/352448/image'
                                                                             // ... outras propriedades
                                                                             },
                                                                             {
@@ -459,7 +476,8 @@ valorMercado: '2.1M €'
                                                                                 pePreferencial: 'Direito',
                                                                                 idade: '30',
                                                                                 clube: 'Corinthians',
-                                                                                valorMercado: '10.3m € '
+                                                                                valorMercado: '10.3m € ',
+                                                                                image: 'https://api.sofascore.app/api/v1/player/138833/image'
                                                                                 // ... outras propriedades
                                                                                 },
                                                                                 {
@@ -473,7 +491,8 @@ valorMercado: '2.1M €'
                                                                                     pePreferencial: 'Direito',
                                                                                     idade: '33',
                                                                                     clube: 'Corinthians',
-                                                                                    valorMercado: '1,4m €'
+                                                                                    valorMercado: '1,4m €',
+                                                                                    image: 'https://api.sofascore.app/api/v1/player/115182/image'
                                                                                     // ... outras propriedades
                                                                                     }
 ];
