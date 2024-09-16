@@ -17,7 +17,7 @@ let jogadores = [
     },
         {
             nome : 'Rodrigo Garro',
-            posicao: 'M',
+            posicao: 'Meio-Campo',
             link: 'https://www.sofascore.com/pt/jogador/rodrigo-garro/994454',
             dataNascimento : '04/01/1998',
             nacionalidade: 'Argentino',
@@ -32,7 +32,7 @@ let jogadores = [
         },
         {
             nome : 'Hugo Souza',
-            posicao: 'G',
+            posicao: 'Goleiro',
             link: 'https://www.sofascore.com/pt/jogador/hugo-souza/950454',
             dataNascimento : '31/01/1999',
             nacionalidade: 'Brasileiro',
@@ -47,7 +47,7 @@ let jogadores = [
         },
     {
         nome : 'Angel Romero',
-        posicao: 'FW',
+        posicao: 'Atacante',
         link: 'https://www.sofascore.com/pt/jogador/angel-romero/1197041',
         dataNascimento : '04/07/1992',
         nacionalidade: 'Paraguaio',
@@ -62,7 +62,7 @@ let jogadores = [
     },
         {
             nome : 'Raniele',
-            posicao: 'M',
+            posicao: 'Meio-Campo',
             link: 'https://www.sofascore.com/pt/jogador/raniele/866392',
             dataNascimento : '31/12/1996',
             nacionalidade: 'Brasileiro',
@@ -77,7 +77,7 @@ let jogadores = [
         },
         {
             nome : 'Igor Coronado',
-            posicao: 'M',
+            posicao: 'Meio-Campo',
             link: 'https://www.sofascore.com/pt/jogador/igor-coronado/152098',
             dataNascimento : '18/08/1992',
             nacionalidade: 'Brasileiro',
@@ -92,7 +92,7 @@ let jogadores = [
         },
         {
         nome : 'Maycon',
-        posicao: 'M',
+        posicao: 'Meio-campo',
         link: 'https://www.sofascore.com/pt/jogador/maycon/831778',
         dataNascimento : '15/07/1997',
         nacionalidade: 'Brasileiro',
@@ -107,7 +107,7 @@ let jogadores = [
     },
 {
 nome : 'Breno Bidon',
-posicao: 'M',
+posicao: 'Meio-campo',
 link: 'https://www.sofascore.com/pt/jogador/breno-bidon/1199261',
 dataNascimento : '20/02/2005',
 nacionalidade: 'Brasileiro',
@@ -122,7 +122,7 @@ image: 'https://api.sofascore.app/api/v1/player/1199261/image'
 },
 {
 nome : 'José Martinez',
-posicao: 'M',
+posicao: 'Meio-campo',
 link: 'https://sofascore.com/pt/jogador/jose-martinez/979325',
 dataNascimento : '07/08/1994',
 nacionalidade: 'Colombiano',
@@ -137,7 +137,7 @@ image: 'https://api.sofascore.app/api/v1/player/979325/image'
 },
 {
 nome : 'Matheus Araújo',
-posicao: 'M',
+posicao: 'Meio-campo',
 link: 'https://www.sofascore.com/pt/jogador/matheus-araujo/1002617',
 dataNascimento : '22/05/2002',
 nacionalidade: 'Brasileiro',
@@ -152,7 +152,7 @@ image: 'https://api.sofascore.app/api/v1/player/1002617/image'
 },
 {
 nome : 'Félix Torres',
-posicao: 'D',
+posicao: 'Defensor',
 link: 'https://www.sofascore.com/pt/jogador/felix-torres/881848',
 dataNascimento : '11/01/1997',
 nacionalidade: 'Equatoriano',
@@ -167,7 +167,7 @@ image: 'https://api.sofascore.app/api/v1/player/881848/image'
 },
 {
 nome : 'Alex Santana',
-posicao: 'M',
+posicao: 'Meio-campo',
 link: 'https://www.sofascore.com/pt/jogador/alex-santana/358166',
 dataNascimento : '13/05/1995',
 nacionalidade: 'Brasileiro',
@@ -182,7 +182,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
 },
 {
     nome : 'Charles',
-    posicao: 'M',
+    posicao: 'Meio-campo',
     link: 'https://sofascore.com/pt/jogador/charles/845178',
     dataNascimento : '19/06/1996',
     nacionalidade: 'Brasileiro',
@@ -192,12 +192,12 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
     idade: 29 ,
     clube: 'Corinthians',
     valorMercado: '970K €',
-    image: ''
+    image: 'https://api.sofascore.app/api/v1/player/845178/image'
     // ... outras propriedades
     },
     {
         nome : 'Gustavo Henrique',
-        posicao: 'D',
+        posicao: 'Defensor',
         link: 'https://www.sofascore.com/pt/jogador/gustavo-henrique/243181',
         dataNascimento : '24/03/1993',
         nacionalidade: 'Brasileiro',
@@ -212,7 +212,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
         },
         {
             nome : 'Ruan Oliveira',
-            posicao: 'M',
+            posicao: 'Meio-campo',
             link: 'https://www.sofascore.com/pt/jogador/ruan-oliveira/1047656',
             dataNascimento : '23/03/2000',
             nacionalidade: 'Brasileiro',
@@ -227,7 +227,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
             },
             {
                 nome : 'Ryan Gustavo',
-                posicao: 'M',
+                posicao: 'Meio-campo',
                 link: 'https://www.sofascore.com/pt/jogador/ryan-gustavo/1170779',
                 dataNascimento : '15/07/2003',
                 nacionalidade: 'Brasileiro',
@@ -242,7 +242,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                 },
                 {
                     nome : 'Fagner',
-                    posicao: 'D',
+                    posicao: 'Defensor',
                     link: 'https://www.sofascore.com/pt/jogador/fagner/25554',
                     dataNascimento : '11/06/1989',
                     nacionalidade: 'Brasileiro',
@@ -257,7 +257,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                     },
                     {
                         nome : 'Matheuzinho',
-                        posicao: 'D',
+                        posicao: 'Defensor',
                         link: 'https://www.sofascore.com/pt/jogador/matheuzinho/931540',
                         dataNascimento : '08/09/2000',
                         nacionalidade: 'Brasileiro',
@@ -272,7 +272,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                         },
                         {
                             nome : 'Diego Palacios',
-                            posicao: 'D',
+                            posicao: 'Defensor',
                             link: 'https://www.sofascore.com/pt/jogador/diego-palacios/925615',
                             dataNascimento : '12/06/1999',
                             nacionalidade: 'Equatoriano',
@@ -287,7 +287,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                             },
                             {
                                 nome : 'Matheus Bidu',
-                                posicao: 'D',
+                                posicao: 'Defensor',
                                 link: 'https://www.sofascore.com/pt/jogador/matheus-bidu/981703',
                                 dataNascimento : '04/05/1999',
                                 nacionalidade: 'Brasileiro',
@@ -302,7 +302,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                 },
                                 {
                                     nome : 'André Ramalho',
-                                    posicao: 'D',
+                                    posicao: 'Defensor',
                                     link: 'https://www.sofascore.com/pt/jogador/andre-ramalho/148155',
                                     dataNascimento : '16/02/1992',
                                     nacionalidade: 'Brasileiro',
@@ -317,7 +317,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                     },
                                     {
                                         nome : 'Cacá',
-                                        posicao: 'D',
+                                        posicao: 'Defensor',
                                         link: 'https://www.sofascore.com/pt/jogador/caca/929200',
                                         dataNascimento : '25/04/1999',
                                         nacionalidade: 'Brasileiro',
@@ -332,7 +332,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                         },
                                         {
                                             nome : 'Hugo',
-                                            posicao: 'D',
+                                            posicao: 'Defensor',
                                             link: 'https://www.sofascore.com/pt/jogador/hugo/1017827',
                                             dataNascimento : '29/08/1997',
                                             nacionalidade: 'Brasileiro',
@@ -347,7 +347,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                             },
                                             {
                                                 nome : 'Caetano',
-                                                posicao: 'D',
+                                                posicao: 'Defensor',
                                                 link: 'https://www.sofascore.com/pt/jogador/caetano/959006',
                                                 dataNascimento : '24/06/1999',
                                                 nacionalidade: 'Brasileiro',
@@ -362,7 +362,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                 },
                                                 {
                                                     nome : 'Léo Mana',
-                                                    posicao: 'D',
+                                                    posicao: 'Defensor',
                                                     link: 'https://www.sofascore.com/pt/jogador/leo-mana/1170769',
                                                     dataNascimento : '06/04/2004',
                                                     nacionalidade: 'Brasileiro',
@@ -377,7 +377,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                     },
                                                     {
                                                         nome : 'Matheus Donelli',
-                                                        posicao: 'G',
+                                                        posicao: 'Goleiro',
                                                         link: 'https://www.sofascore.com/pt/jogador/matheus-donelli/1002609',
                                                         dataNascimento : '17/05/2002',
                                                         nacionalidade: 'Brasileiro',
@@ -392,7 +392,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                         },
                                                         {
                                                             nome : 'Talles Magno',
-                                                            posicao: 'F',
+                                                            posicao: 'Atacante',
                                                             link: 'https://www.sofascore.com/pt/jogador/talles-magno/985860',
                                                             dataNascimento : '26/06/2002',
                                                             nacionalidade: 'Brasileiro',
@@ -407,7 +407,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                             },
                                                             {
                                                                 nome : 'Pedro Raul',
-                                                                posicao: 'F',
+                                                                posicao: 'Atacante',
                                                                 link: 'https://www.sofascore.com/pt/jogador/pedro-raul/866911',
                                                                 dataNascimento : '05/11/1996',
                                                                 nacionalidade: 'Brasileiro',
@@ -422,7 +422,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                                 },
                                                                 {
                                                                     nome : 'Giovane',
-                                                                    posicao: 'F',
+                                                                    posicao: 'Atacante',
                                                                     link: 'https://www.sofascore.com/pt/jogador/giovane/1170773',
                                                                     dataNascimento : '24/11/2003',
                                                                     nacionalidade: 'Brasileiro',
@@ -437,7 +437,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                                     },
                                                                     {
                                                                         nome : 'Pedro Henrique',
-                                                                        posicao: 'F',
+                                                                        posicao: 'Atacante',
                                                                         link: 'https://www.sofascore.com/pt/jogador/pedro-henrique/219190',
                                                                         dataNascimento : '16/06/1990',
                                                                         nacionalidade: 'Brasileiro',
@@ -452,7 +452,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                                         },
                                                                         {
                                                                             nome : 'Héctor Hernández',
-                                                                            posicao: 'F',
+                                                                            posicao: 'Atacante',
                                                                             link: 'https://www.sofascore.com/pt/jogador/hector-hernandez/352448',
                                                                             dataNascimento : '14/09/1995',
                                                                             nacionalidade: 'Espanhol',
@@ -467,7 +467,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                                             },
                                                                             {
                                                                                 nome : 'Memphis Depay',
-                                                                                posicao: 'F',
+                                                                                posicao: 'Atacante',
                                                                                 link: 'https://www.sofascore.com/pt/jogador/memphis-depay/138833',
                                                                                 dataNascimento : '13/02/1994',
                                                                                 nacionalidade: 'Holandês',
@@ -482,7 +482,7 @@ image: 'https://api.sofascore.app/api/v1/player/358166/image'
                                                                                 },
                                                                                 {
                                                                                     nome : 'André Carrillo',
-                                                                                    posicao: 'M',
+                                                                                    posicao: 'Meio-campo',
                                                                                     link: 'https://www.sofascore.com/pt/jogador/andre-carrillo/115182',
                                                                                     dataNascimento : '14/07/1991',
                                                                                     nacionalidade: 'Peruano',
