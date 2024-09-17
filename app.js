@@ -1,12 +1,11 @@
 
-const campoPesquisa = document.getElementById("campo-pesquisa");
-const sectionResultados = document.getElementById("resultados-pesquisa");
+let campoPesquisa = document.getElementById("campo-pesquisa");
+let sectionResultados = document.getElementById("resultados-pesquisa");
 
-// Adiciona o event listener para o evento 'keypress'
 campoPesquisa.addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
-        event.preventDefault(); // Impede o comportamento padrão (quebrar a linha)
-        pesquisar(); // Chama a função de pesquisa
+        event.preventDefault(); 
+        pesquisar();
     }
 });
 function pesquisar() {
@@ -26,9 +25,9 @@ function pesquisar() {
     let nome = "";
 
     for (let dado of jogadores) {
-      nome = dado.nome.toLowerCase()
+    nome = dado.nome.toLowerCase()
 
-      if (nome.includes(campoPesquisa)){
+    if (nome.includes(campoPesquisa)){
         //       
     resultados += `
     <div class="item-resultado">
@@ -51,15 +50,14 @@ function pesquisar() {
                 </p>
                 </div>
     `
-  }
-  
-  if (!resultados) {
-  
+}
+if (!resultados) {
+
     resultados = "<p>Esse resultado não existe</p>"
 
 }   
 
 section.innerHTML = resultados
     }
-  }
+}
 
