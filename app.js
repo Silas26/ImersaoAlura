@@ -1,4 +1,18 @@
+const scrollDiv = document.querySelector('.scroll-div');
 
+function checkScroll() {
+const contentHeight = scrollDiv.scrollHeight;
+const divHeight = scrollDiv.clientHeight;
+
+if (contentHeight > divHeight) {
+    scrollDiv.classList.add('scrollable');
+} else {
+    scrollDiv.classList.remove('scrollable');
+}
+}
+
+// Chame a função inicialmente e sempre que o conteúdo for atualizado
+checkScroll();
 let campoPesquisa = document.getElementById("campo-pesquisa");
 let sectionResultados = document.getElementById("resultados-pesquisa");
 
@@ -11,11 +25,10 @@ campoPesquisa.addEventListener('keypress', (event) => {
 function pesquisar() {
     let section = document.getElementById
     ("resultados-pesquisa");
-
     let campoPesquisa = document.getElementById
     ("campo-pesquisa").value;
     if (!campoPesquisa) {
-        section.innerHTML = "<p>Nada Foi Encontrado</p>"
+        section.innerHTML = `<p class="notResult">Nada Foi Encontrado</p>`
         return
     }
 
@@ -23,16 +36,18 @@ function pesquisar() {
 
     let resultados = "";
     let nome = "";
+    let posicao = "";
 
     for (let dado of jogadores) {
     nome = dado.nome.toLowerCase()
+    posicao = dado.posicao.toLowerCase()
 
-    if (nome.includes(campoPesquisa)){
-        //       
+    if (nome.includes(campoPesquisa) || (posicao.includes(campoPesquisa))){
+
     resultados += `
     <div class="item-resultado">
                 <h2>
-                <a href="" target="_blank">${dado.nome}</a>
+                <p>${dado.nome}</p>
                 </h2>
                 <p class="descriçao-meta">
                 <img src='${dado.image}'>
@@ -52,8 +67,8 @@ function pesquisar() {
     `
 }
 if (!resultados) {
-
-    resultados = "<p>Esse resultado não existe</p>"
+    resultados = `<p class="notResult">
+    Esse resultado não existe</p>`
 
 }   
 
