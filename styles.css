@@ -1,8 +1,9 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 
 /* Estiliza o corpo da página */
 body {
+    overflow-x: hidden;
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: #DDDDDD; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
@@ -13,13 +14,33 @@ body {
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
+.imagem {
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%; 
+    background-image: url(https://wallpapercave.com/wp/wp6309525.jpg);
+    /* background-size: cover; */
 
+}
 /* Estiliza os títulos h1 */
 h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #D30005; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+.pp {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #D30005;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Estiliza as seções da página */
@@ -47,35 +68,81 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #30475E; /* Cor de fundo do botão */
-    color: #F5F7F8; /* Cor do texto do botão */
+    background-color: #000000; /* Cor de fundo do botão */
+    color: #eef2f4; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
+    color: #000000;
+    background-color: #ffffff; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
-.resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 46vh; /* Altura máxima da caixa de resultados */
-    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+#resultados-pesquisa {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 100%; /* Largura máxima da caixa de resultados */
+    /* height: 200px; Altura máxima da caixa de resultados */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
-    border-radius: 0.6rem; /* Borda arredondada */
+    border-radius: 0.6rem;
+    overflow-y: scroll; /* Borda arredondada */
+}
+.corError {
+    color: rgb(106, 0, 255);
+}
+.scroll-div {
+    margin-left: 40%;
+    width: 20%;
+    height: 50vh;
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem;
+    overflow-x: hidden;
+}
+.scrollable {
+    overflow-y: scroll;
+}
+.scroll-div::-webkit-scrollbar {
+    
+    width: 12px; /* A largura do scroll vertical */
+}
+  /* Cor do trilho da barra de rolagem */
+.scroll-div::-webkit-scrollbar-track {
+    border-radius: 15px;
+    background-color: #ffffff; /* Cor de fundo do trilho */
+}
+
+  /* Cor e estilo do polegar da barra de rolagem */
+.scroll-div::-webkit-scrollbar-thumb {
+    background-color: #000000; /* Cor do polegar */
+    border-radius: 10px; /* Bordas arredondadas do polegar */
+}
+
+  /* Cor e estilo do polegar quando em hover */
+.scroll-div::-webkit-scrollbar-thumb:hover {
+    background-color: #ff0202; /* Cor ao passar o mouse */
 }
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-top-right-radius: 30px;
+    background: #fffefe; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+.notResult {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(251, 1, 1);
 }
 
 .item-resultado img{
@@ -92,7 +159,7 @@ section button:hover {
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    color: #5e3030; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -102,14 +169,14 @@ section button:hover {
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #DDDDDD; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
+    background-color: inherit; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
