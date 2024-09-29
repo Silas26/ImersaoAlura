@@ -1,14 +1,14 @@
 const scrollDiv = document.querySelector('.scroll-div');
 
 function checkScroll() {
-const contentHeight = scrollDiv.scrollHeight;
-const divHeight = scrollDiv.clientHeight;
+    const contentHeight = scrollDiv.scrollHeight;
+    const divHeight = scrollDiv.clientHeight;
 
-if (contentHeight > divHeight) {
-    scrollDiv.classList.add('scrollable');
-} else {
-    scrollDiv.classList.remove('scrollable');
-}
+    if (contentHeight > divHeight) {
+        scrollDiv.classList.add('scrollable');
+    } else {
+        scrollDiv.classList.remove('scrollable');
+    }
 }
 
 // Chame a função inicialmente e sempre que o conteúdo for atualizado
@@ -18,15 +18,15 @@ let sectionResultados = document.getElementById("resultados-pesquisa");
 
 campoPesquisa.addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
-        event.preventDefault(); 
+        event.preventDefault();
         pesquisar();
     }
 });
 function pesquisar() {
     let section = document.getElementById
-    ("resultados-pesquisa");
+        ("resultados-pesquisa");
     let campoPesquisa = document.getElementById
-    ("campo-pesquisa").value;
+        ("campo-pesquisa").value;
     if (!campoPesquisa) {
         section.innerHTML = `<p class="notResult">Nada Foi Encontrado</p>`
         return
@@ -39,12 +39,12 @@ function pesquisar() {
     let posicao = "";
 
     for (let dado of jogadores) {
-    nome = dado.nome.toLowerCase()
-    posicao = dado.posicao.toLowerCase()
+        nome = dado.nome.toLowerCase()
+        posicao = dado.posicao.toLowerCase()
 
-    if (nome.includes(campoPesquisa) || (posicao.includes(campoPesquisa))){
+        if (nome.includes(campoPesquisa) || (posicao.includes(campoPesquisa))) {
 
-    resultados += `
+            resultados += `
     <div class="item-resultado">
                 <h2>
                 <p>${dado.nome}</p>
@@ -65,14 +65,14 @@ function pesquisar() {
                 </p>
                 </div>
     `
-}
-if (!resultados) {
-    resultados = `<p class="notResult">
+        }
+        if (!resultados) {
+            resultados = `<p class="notResult">
     Esse resultado não existe</p>`
 
-}   
+        }
 
-section.innerHTML = resultados
+        section.innerHTML = resultados
     }
 }
 
