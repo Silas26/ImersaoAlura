@@ -1,3 +1,5 @@
+inject()
+import { inject } from "@vercel/analytics"
 const scrollDiv = document.querySelector('.scroll-div');
 
 function checkScroll() {
@@ -75,4 +77,3 @@ function pesquisar() {
         section.innerHTML = resultados
     }
 }
-
