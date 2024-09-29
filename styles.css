@@ -58,6 +58,12 @@ h1 {
     text-align: center;
     font-weight: bold;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 /* Estiliza as seções da página */
 section {
@@ -258,8 +264,19 @@ footer {
     font-size: 1rem;
     /* Tamanho da fonte */
 }
+.lazy {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .lazy.loaded {
+    opacity: 1;
+  }
 
 @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
     h1 {
         font-size: 2rem;
         /* Tamanho da fonte em telas menores */
@@ -285,7 +302,6 @@ footer {
         font-size: 1.3rem;
         /* Tamanho da fonte dos títulos em telas menores */
     }
-}
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
