@@ -1,5 +1,21 @@
-inject()
-import { inject } from "@vercel/analytics"
+const lazyImages = document.querySelectorAll('img.lazy');
+
+const lazyLoad = () => {
+  lazyImages.forEach(image => {
+    if (isInViewport(image)) {
+      image.src = image.dataset.src;
+      image.classList.add('loaded');
+    }
+  });
+};
+
+// Função para verificar se um elemento está na viewport
+function isInViewport(element) {
+  // ... implementação da função
+}
+
+window.addEventListener('scroll', lazyLoad);
+lazyLoad();
 const scrollDiv = document.querySelector('.scroll-div');
 
 function checkScroll() {
@@ -77,3 +93,4 @@ function pesquisar() {
         section.innerHTML = resultados
     }
 }
+
