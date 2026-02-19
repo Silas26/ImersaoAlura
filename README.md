@@ -37,8 +37,3 @@ Quer ajudar a melhorar essa aplicação? Fique à vontade para abrir um pull req
 **Vamos juntos fazer essa aplicação ainda melhor!** 
 
 **#Corinthians #DesenvolvimentoWeb #JavaScript #HTML #CSS**
-silas souza sabino
-fgnfdfghdfdgfd
-dgfhffgddfgnfd
-
-gfhfgfhgf
